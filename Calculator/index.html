@@ -37,21 +37,8 @@
             <button style="width: 100%" class="operator" onclick="clearDisplay()">C</button>
         </div>
     </div>
-    <script>
-        let currDisplay=''
-        function valueAdd(value){
-            currDisplay+=value;
-            document.querySelector('#display').value=currDisplay;
+    <script src="script.js">
 
-        }
-        function calculate(){
-            currDisplay=eval(currDisplay);
-            document.querySelector('#display').value=currDisplay;
-        }
-        function clearDisplay() {
-            currDisplay = '';
-            document.querySelector('#display').value = currDisplay;
-        }
     </script>
 </body>
 </html>
