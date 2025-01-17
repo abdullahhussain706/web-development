@@ -1,0 +1,67 @@
+/* style.css */
+
+body {
+    background-color: #e0f7fa;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #006064;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #004d40;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border: 2px solid #00796b;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#guessButton {
+    background-color: #00796b;
+    color: white;
+}
+
+#resetButton {
+    background-color: #d32f2f;
+    color: rgb(128, 184, 26);
+
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #004d40;
+}
+.attempt{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #004d40;
+}
