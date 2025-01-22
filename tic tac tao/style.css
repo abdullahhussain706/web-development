@@ -28,4 +28,28 @@ body{
     width: 18vmin;
     border: none;
     border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #FF7F11;
+}
+.reset{
+    font-size: 1.25rem;
+    color: #454ADE;
+    background-color: #C874D9;
+    border-radius: 3px;
+    border: none;
+    width: 100px;
+    height: 3rem;
+}
+
+.msgContainer{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5vmin;
+    color: #2511da;
+    border: 1px solid #C874D9;
+    box-sizing: border-box;
+}
+
+.hide{
+    display: none;
 }
