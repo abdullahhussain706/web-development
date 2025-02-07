@@ -32,6 +32,10 @@ body{
     font-size: 40px;
     color: #FF7F11;
 }
+.btn:hover{
+    
+    border: 1px solid #C874D9;
+}
 .reset{
     font-size: 1.25rem;
     color: #454ADE;
@@ -40,14 +44,22 @@ body{
     border: none;
     width: 100px;
     height: 3rem;
+    transition: all 0.3s ease-in-out;
 }
-
+.reset:hover{
+    background-color: #454A7E;
+    border: 1px solid black;
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 .msgContainer{
     font-family: 'Times New Roman', Times, serif;
     font-size: 5vmin;
     color: #2511da;
     border: 1px solid #C874D9;
     box-sizing: border-box;
+    display: inline-block;
+    max-width: 80%;
 }
 
 .hide{

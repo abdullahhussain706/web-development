@@ -43,9 +43,6 @@ const checkWinner=()=>{
                 msg.classList.remove("hide");
                 disableButtons();
             }
-            else{
-                msg.innerText=`Try Again!`;
-            }
         }
     }
 }
@@ -60,4 +57,5 @@ res.addEventListener("click",()=>{
         box.disabled = false;
     })
     turnx=true;
+    msg.classList.add("hide");
 })
