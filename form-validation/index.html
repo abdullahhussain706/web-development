@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        .container{
+            width: 400px;
+            background-color: cornflowerblue;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        label{
+            align-self: flex-start;
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+        input{
+            margin-top: 5px;
+            width: 90%;
+            background: transparent;
+            border: 1px solid white;
+            border-radius: 5px;
+            height: 30px;
+        }
+
+        button{
+            width: 100px;
+            height: 40px;
+            margin: 5px;
+            border-radius: 5px;
+            border: none;
+            background-color:cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form id="signupForm">
+            <h2>Signup Form</h2>
+    
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <small class="error" id="nameError"></small>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <small class="error" id="emailError"></small>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter password" required>
+            <small class="error" id="passwordError"></small>
+    
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" placeholder="Confirm password" required>
+            <small class="error" id="confirmPasswordError"></small>
+    
+            <button id="submitBtn" type="button">Sign Up</button>
+        </form>
+    </div>
+    
+    <script src="/form-validation/script.js"></script>
+</body>
+</html>
